@@ -25,3 +25,17 @@
 #container a {
   text-decoration: none;
 }
+
+
+  ion-card {
+    border: 2px solid black;
+  }
+
+  ion-card img {
+    border: 2px solid black;
+  }
+
+  ion-button {
+    border: 2px solid black;
+    border-radius: 50px; // Add the desired border radius value
+  }
