@@ -14,7 +14,11 @@ const routes: Routes = [
   {
     path: 'rent-page',
     loadChildren: () => import('./rent-page/rent-page.module').then( m => m.RentPagePageModule)
+  },  {
+    path: 'mycart',
+    loadChildren: () => import('./mycart/mycart.module').then( m => m.MycartPageModule)
   },
+
 ];
 
 @NgModule({
