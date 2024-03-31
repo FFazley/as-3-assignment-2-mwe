@@ -30,6 +30,10 @@ const routes: Routes = [
     path: 'backpack',
     loadChildren: () => import('./backpack/backpack.module').then( m => m.BackpackPageModule)
   },
+  {
+    path: 'lanyard',
+    loadChildren: () => import('./lanyard/lanyard.module').then( m => m.LanyardPageModule)
+  },
 
 ];
 
