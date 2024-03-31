@@ -38,6 +38,26 @@ const routes: Routes = [
     path: 'book1',
     loadChildren: () => import('./book1/book1.module').then( m => m.Book1PageModule)
   },
+  {
+    path: 'book2',
+    loadChildren: () => import('./book2/book2.module').then( m => m.Book2PageModule)
+  },
+  {
+    path: 'book3',
+    loadChildren: () => import('./book3/book3.module').then( m => m.Book3PageModule)
+  },
+  {
+    path: 'book4',
+    loadChildren: () => import('./book4/book4.module').then( m => m.Book4PageModule)
+  },
+  {
+    path: 'book5',
+    loadChildren: () => import('./book5/book5.module').then( m => m.Book5PageModule)
+  },
+  {
+    path: 'book6',
+    loadChildren: () => import('./book6/book6.module').then( m => m.Book6PageModule)
+  },
 
 ];
 

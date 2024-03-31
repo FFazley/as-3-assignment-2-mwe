@@ -35,7 +35,7 @@ export class RentPagePage implements OnInit {
   async showRentSuccessAlert() {
     const alert = await this.alertController.create({
       header: 'Rent Success',
-      message: 'You have successfully rented the item.',
+      message: 'You have successfully rented the cube.',
       buttons: ['OK'],
     });
 

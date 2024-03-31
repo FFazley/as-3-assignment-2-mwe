@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { AlertController } from '@ionic/angular';
 
 @Component({
-  selector: 'app-book1',
-  templateUrl: './book1.page.html',
-  styleUrls: ['./book1.page.scss'],
+  selector: 'app-book3',
+  templateUrl: './book3.page.html',
+  styleUrls: ['./book3.page.scss'],
 })
-export class Book1Page implements OnInit {
+export class Book3Page implements OnInit {
   constructor(private alertController: AlertController) {}
 
   ngOnInit(): void {
