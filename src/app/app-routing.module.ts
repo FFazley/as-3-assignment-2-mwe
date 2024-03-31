@@ -18,6 +18,10 @@ const routes: Routes = [
     path: 'mycart',
     loadChildren: () => import('./mycart/mycart.module').then( m => m.MycartPageModule)
   },
+  {
+    path: 'book',
+    loadChildren: () => import('./book/book.module').then( m => m.BookPageModule)
+  },
 
 ];
 
