@@ -1,0 +1,27 @@
+<ion-content [fullscreen]="true" class="ion-align-items-center">
+  <ion-header>
+    <ion-toolbar color="medium">
+      <ion-buttons slot="start">
+        <ion-back-button style="color: black;" defaultHref="/"></ion-back-button>
+      </ion-buttons>
+      <ion-title style="color: black;">Book Detail</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-card style="border: 2px solid; color:black; " >
+    
+    <img src="https://nollybook.com/cdn/shop/products/Brunei-Darussalam-Education_180x.jpg?v=1657073490" />
+   </ion-card>
+
+   <ion-card>
+    <ion-card-header>
+      <ion-card-title>Card Title</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Here's a small text description for the card content. Nothing more, nothing less.
+    </ion-card-content>
+  </ion-card>
+    <ion-button id="open-action-sheet" slot="end" shape="round" color="success" style="color: black; border: 2px solid; border-radius: 45px;">Rent Now</ion-button>
+<ion-action-sheet trigger="open-action-sheet" header="Are you sure want to rent A3 this cube?" [buttons]="actionSheetButtons"></ion-action-sheet>
+  
+
+</ion-content>

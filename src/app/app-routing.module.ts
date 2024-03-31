@@ -34,6 +34,10 @@ const routes: Routes = [
     path: 'lanyard',
     loadChildren: () => import('./lanyard/lanyard.module').then( m => m.LanyardPageModule)
   },
+  {
+    path: 'book1',
+    loadChildren: () => import('./book1/book1.module').then( m => m.Book1PageModule)
+  },
 
 ];
 
