@@ -1,13 +1,50 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>Book</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Book</ion-title>
+  <ion-header>
+    <ion-toolbar color="medium">
+      <ion-buttons slot="start">
+        <ion-back-button style="color: black;" defaultHref="/"></ion-back-button>
+      </ion-buttons>
+      
+      <ion-title style="color: black;">Book</ion-title>
     </ion-toolbar>
   </ion-header>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col col-6 col-sm-3>
+        <ion-card style="height: 220px; border: 2px solid black;">
+          <img class="book-image" src="https://nollybook.com/cdn/shop/products/Brunei-Darussalam-Education_180x.jpg?v=1657073490" style="width: 200; height: 150;">
+        </ion-card>
+      </ion-col>
+        <ion-col col-6 col-sm-3>
+          <ion-card style="height: 220px; border: 2px solid black;">
+            <img class="book-image" src="https://nollybook.com/cdn/shop/products/THE-HISTORY-OF-THE-DEVELOPM_360x.jpg?v=1589467249" style="width: 200; height: 200;">
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    <ion-row>
+      <ion-col col-6 col-sm-3>
+        <ion-card style="height: 220px; border: 2px solid black;">
+          <img class="book-image" src="https://nollybook.com/cdn/shop/products/41YPUAhxD5L._SX327_BO1_204_203_200_180x.jpg?v=1631310268" style="width: 200; height: 200;">
+        </ion-card>
+      </ion-col>
+      <ion-col col-6 col-sm-3>
+        <ion-card style="height: 220px; border: 2px solid black;">
+          <img class="book-image" src="https://nollybook.com/cdn/shop/products/42289564._SX318_180x.jpg?v=1624717456" style="width: 200; height: 200;">
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-6 col-sm-3>
+        <ion-card style="height: 220px; border: 2px solid black;">
+          <img class="book-image" src="https://nollybook.com/cdn/shop/products/imageAction_41de1c13-0863-42a2-9e4a-d0f3862f8394_180x.jpg?v=1585207175" style="width: 200; height: 200;">
+        </ion-card>
+      </ion-col>
+      <ion-col col-6 col-sm-3>
+        <ion-card style="height: 220px; border: 2px solid black;">
+          <img class="book-image" src="https://nollybook.com/cdn/shop/products/56196728._SY475_180x.jpg?v=1627228201" style="width: 200; height: 200;">
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
