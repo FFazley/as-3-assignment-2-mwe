@@ -26,6 +26,10 @@ const routes: Routes = [
     path: 'shirt',
     loadChildren: () => import('./shirt/shirt.module').then( m => m.ShirtPageModule)
   },
+  {
+    path: 'backpack',
+    loadChildren: () => import('./backpack/backpack.module').then( m => m.BackpackPageModule)
+  },
 
 ];
 
