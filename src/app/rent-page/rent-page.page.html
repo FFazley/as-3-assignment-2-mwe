@@ -1,13 +1,44 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>Rent Page</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Rent Page</ion-title>
+  <ion-header>
+    <ion-toolbar color="medium">
+      <ion-buttons slot="start">
+        <ion-back-button style="color: black;" defaultHref="/"></ion-back-button>
+      </ion-buttons>
+      <ion-title style="color: black;">Renting Cube</ion-title>
     </ion-toolbar>
   </ion-header>
+  <ion-card style="border: 2px solid; color:black;">
+    <img src="assets/Image/rENT.png" />
+   </ion-card>
+  <ion-item style="border: 2px solid; color:black;">
+    <img src="assets/Image/A1.png"  style="width: 40px; height: 40px; border-radius: 50%; margin-right: 10px;" />
+    <ion-label>A1</ion-label>
+    <ion-button slot="end" shape="round" color="danger" style="color: black; border: 2px solid; border-radius: 45px;">Occupied</ion-button>
+  </ion-item>
+  <ion-item style="border: 2px solid; color:black;">
+    <img src="assets/Image/A2.png"  style="width: 40px; height: 40px; border-radius: 50%; margin-right: 10px;" />
+    <ion-label>A2</ion-label>
+    <ion-button slot="end" shape="round" color="danger" style="color: black; border: 2px solid; border-radius: 45px;">Occupied</ion-button>
+  </ion-item>
+  <ion-item style="border: 2px solid; color:black;">
+    <img src="assets/Image/A3.png"  style="width: 40px; height: 40px; border-radius: 50%; margin-right: 10px;" />
+    <ion-label>A3</ion-label>
+    <ion-button id="open-action-sheet" slot="end" shape="round" color="success" style="color: black; border: 2px solid; border-radius: 45px;">Rent Now</ion-button>
+<ion-action-sheet trigger="open-action-sheet" header="Are you sure want to rent A3 this cube?" [buttons]="actionSheetButtons"></ion-action-sheet>
+  </ion-item>
+  <ion-item style="border: 2px solid; color:black;">
+    <img src="assets/Image/B1.png"  style="width: 40px; height: 40px; border-radius: 50%; margin-right: 10px;" />
+    <ion-label>B1</ion-label>
+    <ion-button slot="end" shape="round" color="danger" style="color: black; border: 2px solid; border-radius: 45px;">Occupied</ion-button>
+  </ion-item>
+  <ion-item style="border: 2px solid; color:black;">
+    <img src="assets/Image/B2.png"  style="width: 40px; height: 40px; border-radius: 50%; margin-right: 10px;" />
+    <ion-label>B2</ion-label>
+    <ion-button slot="end" shape="round" color="danger" style="color: black; border: 2px solid; border-radius: 45px;">Occupied</ion-button>
+  </ion-item>
+  <ion-item style="border: 2px solid; color:black;">
+    <img src="assets/Image/B3.png"  style="width: 40px; height: 40px; border-radius: 50%; margin-right: 10px;" />
+    <ion-label>B3</ion-label>
+    <ion-button slot="end" shape="round" color="danger" style="color: black; border: 2px solid; border-radius: 45px;">Occupied</ion-button>
+  </ion-item>
 </ion-content>
