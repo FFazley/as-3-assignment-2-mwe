@@ -82,6 +82,54 @@ const routes: Routes = [
     path: 'lanyard6',
     loadChildren: () => import('./lanyard6/lanyard6.module').then( m => m.Lanyard6PageModule)
   },
+  {
+    path: 'backpack1',
+    loadChildren: () => import('./backpack1/backpack1.module').then( m => m.Backpack1PageModule)
+  },
+  {
+    path: 'backpack2',
+    loadChildren: () => import('./backpack2/backpack2.module').then( m => m.Backpack2PageModule)
+  },
+  {
+    path: 'backpack3',
+    loadChildren: () => import('./backpack3/backpack3.module').then( m => m.Backpack3PageModule)
+  },
+  {
+    path: 'backpack4',
+    loadChildren: () => import('./backpack4/backpack4.module').then( m => m.Backpack4PageModule)
+  },
+  {
+    path: 'backpack5',
+    loadChildren: () => import('./backpack5/backpack5.module').then( m => m.Backpack5PageModule)
+  },
+  {
+    path: 'backpack6',
+    loadChildren: () => import('./backpack6/backpack6.module').then( m => m.Backpack6PageModule)
+  },
+  {
+    path: 'shirt1',
+    loadChildren: () => import('./shirt1/shirt1.module').then( m => m.Shirt1PageModule)
+  },
+  {
+    path: 'shirt2',
+    loadChildren: () => import('./shirt2/shirt2.module').then( m => m.Shirt2PageModule)
+  },
+  {
+    path: 'shirt3',
+    loadChildren: () => import('./shirt3/shirt3.module').then( m => m.Shirt3PageModule)
+  },
+  {
+    path: 'shirt4',
+    loadChildren: () => import('./shirt4/shirt4.module').then( m => m.Shirt4PageModule)
+  },
+  {
+    path: 'shirt5',
+    loadChildren: () => import('./shirt5/shirt5.module').then( m => m.Shirt5PageModule)
+  },
+  {
+    path: 'shirt6',
+    loadChildren: () => import('./shirt6/shirt6.module').then( m => m.Shirt6PageModule)
+  },
 
 ];
 
