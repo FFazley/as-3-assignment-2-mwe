@@ -1,0 +1,39 @@
+<ion-content [fullscreen]="true" class="ion-align-items-center ion-justify-content-center">
+  <ion-header>
+    <ion-toolbar color="medium">
+      <ion-buttons slot="start">
+        <ion-back-button style="color: black;" defaultHref="/book"></ion-back-button>
+      </ion-buttons>
+      <ion-title style="color: black;">Lanyard Detail</ion-title>
+    </ion-toolbar>
+  </ion-header>
+    <br>
+    <br>
+  <div style="display: flex; justify-content: center; align-items: center;">
+    <img style="border: 2px solid; color:black; border-radius: 10%; width: 200px; height: 220px;" src="https://m.media-amazon.com/images/I/81P2EgUpwCL._AC_SX425_.jpg"  />
+  </div>
+
+  <ion-card style="border: 2px solid; color:black;">
+    <ion-card-header>
+      <ion-card-title>Nike Premium Lanyard Black | Black | White
+
+        </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ul>
+        <li>4.4 out of 5 stars</li>
+        <li>Price : $15.00</li>
+        
+      </ul>
+    </ion-card-content>
+  </ion-card>
+
+  <div style="display: flex; justify-content: center; align-items: center;">
+    <ion-button id="open-action-sheet" shape="round" style="color: black; border: 2px solid; border-radius: 45px;">
+      <ion-icon name="cart"></ion-icon>
+      Add to cart
+    </ion-button>
+  </div>
+
+  <ion-action-sheet trigger="open-action-sheet" header="Are you sure want to add this to cart?" [buttons]="actionSheetButtons"></ion-action-sheet>
+</ion-content>

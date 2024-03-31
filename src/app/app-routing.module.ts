@@ -58,6 +58,30 @@ const routes: Routes = [
     path: 'book6',
     loadChildren: () => import('./book6/book6.module').then( m => m.Book6PageModule)
   },
+  {
+    path: 'lanyard1',
+    loadChildren: () => import('./lanyard1/lanyard1.module').then( m => m.Lanyard1PageModule)
+  },
+  {
+    path: 'lanyard2',
+    loadChildren: () => import('./lanyard2/lanyard2.module').then( m => m.Lanyard2PageModule)
+  },
+  {
+    path: 'lanyard3',
+    loadChildren: () => import('./lanyard3/lanyard3.module').then( m => m.Lanyard3PageModule)
+  },
+  {
+    path: 'lanyard4',
+    loadChildren: () => import('./lanyard4/lanyard4.module').then( m => m.Lanyard4PageModule)
+  },
+  {
+    path: 'lanyard5',
+    loadChildren: () => import('./lanyard5/lanyard5.module').then( m => m.Lanyard5PageModule)
+  },
+  {
+    path: 'lanyard6',
+    loadChildren: () => import('./lanyard6/lanyard6.module').then( m => m.Lanyard6PageModule)
+  },
 
 ];
 
