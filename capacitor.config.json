@@ -1,0 +1,8 @@
+{
+    "appId" : "com.pbhub",
+    "appName" : "myPBHUB",
+    "bundleWebRuntime" : false,
+    "npmClient" : "npm",
+    "webDir" : "www",
+    "cordova" : {}
+}
